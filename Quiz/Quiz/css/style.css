@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0ch;
+}
+ h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-bottom: 0ch;
+    margin-top: 0px;
+}
+body{
+    padding: 17px;
+    text-align: center;
+    background: linear-gradient(235deg, #15276d, #b9638d);
+    /* background: url("Image/QuizPNG.png");  */
+    align-items: center;
+    color: aliceblue;
+    height: 550px;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+form{
+    height: 140px;
+    width: 300px;
+    padding: 18px;
+    flex-direction: column;
+    background: linear-gradient(235deg, #15276d, #b9638d);
+}
+.para{
+    padding: 20px;
+    width: 500px;
+    height: fit-content;
+    
+}
+img{
+    height: 80px;
+    width: 70px;
+    /* border-radius: 20px; */
+    /* background: linear-gradient(65deg, #3931a1, #515c66); */
+}
+button{
+    padding: 8px;
+    width: 130px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    background: transparent;
+    color: white;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #b9638d;
+
+}
+#name{
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.start{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+}
+.ques{
+    height: 400px;
+    width: 700px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    text-align: left;
+    
+}
+ .cont{
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.optContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+ }
+.btn{
+    margin: 0 auto;
+}
+.Rpara{
+    padding: 0 10%;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 0s auto;
+}
+.Rpara p{
+    width: 100px;
+}
+.Overall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 100vh;
+ }
+.enter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rules{
+    /* margin-top: -30px; */
+    margin-bottom: 10px;
+}
+.butn{
+    margin-top: auto;
+}
+/* .Head{
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+
+/* img{ */
+    /* height: 800px;
+    width: 80px;
+} */
+nav img{
+    height: 40px;
+    width: 40px;
+    
+}
+nav{
+    transform: scale(0.6);
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+}
